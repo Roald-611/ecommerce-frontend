@@ -50,9 +50,18 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/ngx-toastr/toastr.css",
+              "node_modules/ngx-spinner/animations/ball-clip-rotate-pulse.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/bootstrap.min.js",
+              "src/assets/js/jquery.min.js",
+              "src/assets/js/jquery.zoom.min.js",
+              "src/assets/js/main.js",
+              "src/assets/js/nouislider.min.js",
+              "src/assets/js/slick.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -125,5 +134,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "3cc33fd1-cfe8-47cc-aaaf-6500bced5d2f"
   }
 }
